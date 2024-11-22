@@ -36,7 +36,7 @@
         "1197000",
         "955000"
       ],
-      "DefaultIndex": 0,
+      "DefaultIndex": 1,
       "ResetOnInit": true
     },
     {
@@ -75,7 +75,7 @@
         "1549000",
         "1328000"
       ],
-      "DefaultIndex": 0,
+      "DefaultIndex": 1,
       "ResetOnInit": true
     },
     {
@@ -117,7 +117,7 @@
         "1885000",
         "1557000"
       ],
-      "DefaultIndex": 0,
+      "DefaultIndex": 4,
       "ResetOnInit": true
     },
     {
