@@ -341,15 +341,6 @@
       "ResetOnInit": true
     },
     {
-      "Name": "FGUClampBoost",
-      "Path": "/proc/vendor_sched/groups/fg/uclamp_min",
-      "Values": [
-        "159",
-        "0"
-      ],
-      "ResetOnInit": true
-    },
-    {
       "Name": "MLUclampBoost",
       "Path": "/proc/vendor_sched/groups/nnapi/uclamp_min",
       "Values": [
@@ -967,13 +958,7 @@
       "PowerHint": "LAUNCH",
       "Node": "TAUClampBoost",
       "Duration": 2000,
-      "Value": "765"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "FGUClampBoost",
-      "Duration": 2000,
-      "Value": "159"
+      "Value": "600"
     },
     {
       "PowerHint": "LAUNCH",
@@ -1162,13 +1147,7 @@
       "PowerHint": "DISPLAY_CHANGE",
       "Node": "TAUClampBoost",
       "Duration": 5000,
-      "Value": "765"
-    },
-    {
-      "PowerHint": "DISPLAY_CHANGE",
-      "Node": "FGUClampBoost",
-      "Duration": 5000,
-      "Value": "159"
+      "Value": "600"
     },
     {
       "PowerHint": "DISPLAY_CHANGE",
@@ -2822,12 +2801,6 @@
       "Node": "PerTaskMaxIowaitBoost",
       "Duration": 0,
       "Value": "512"
-    },
-    {
-      "PowerHint": "FP_STORAGE_ACCESS",
-      "Node": "TAUClampBoost",
-      "Duration": 1000,
-      "Value": "765"
     },
     {
       "PowerHint": "ML_ACC",
