@@ -24,5 +24,14 @@
 
     <!-- Volume panel corner radius -->
     <dimen name="bottom_sheet_corner_radius">52dp</dimen>
-</resources>
 
+        <!-- Mangle the QS to show more content within tiles since the tiles are smaller now
+         (OG: 14, 12.0) -->
+    <dimen name="qs_tile_text_size">12.0sp</dimen>
+    <dimen name="qs_tile_padding">0.0dp</dimen>
+    
+    <!-- Honestly this is only here because I hate these design choices
+         (OG: 28.0, 48.0) -->
+    <dimen name="qs_corner_radius">20.0dp</dimen>
+
+</resources>
