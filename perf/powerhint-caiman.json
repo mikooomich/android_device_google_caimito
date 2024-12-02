@@ -988,19 +988,19 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUSkipMask",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "0x0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "ReducePreferIdle",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "AutoPreferIdle",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "0"
     },
     {
@@ -1017,61 +1017,61 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMaxFreq",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUMidClusterMaxFreq",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterMaxFreq",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUUClampMaxFilterEnable",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "BGUClampMaxBoost",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "512"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "TAUClampBoost",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "765"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "FGUClampBoost",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "159"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "MemFreq",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "DsuMinFreq",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "1800000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "BCIMinFreq",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "1401000"
     },
     {
@@ -1087,55 +1087,55 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUDVFSHeadroom",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "1280"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUTaperedDVFSHeadroomEnable",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterDownRateLimitUs",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "5000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUMidClusterDownRateLimitUs",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "20000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterDownRateLimitUs",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "20000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "TAPreferIdle",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "1"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "TAPreferredIdleMaskHigh",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "0xff"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "TAPreferredIdleMaskMid",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "0xff"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "FGPreferIdle",
-      "Duration": 5000,
+      "Duration": 2000,
       "Value": "1"
     },
     {
