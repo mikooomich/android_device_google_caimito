@@ -456,7 +456,6 @@ etc/permissions/com.nxp.mifare.xml
 etc/permissions/features_com.android.virt.xml
 etc/permissions/handheld_core_hardware.xml
 etc/permissions/vendor.android.hardware.camera.preview-dis.xml
-etc/powerhint-proto.json
 etc/powerhint.json
 etc/selinux/plat_pub_versioned.cil
 etc/selinux/plat_sepolicy_vers.txt
