@@ -2575,12 +2575,6 @@
       "Value": "1548000"
     },
     {
-      "PowerHint": "LOW_POWER_LITTLE_CLUSTER_90",
-      "Node": "CPULittleClusterMaxFreq",
-      "Duration": 3600000,
-      "Value": "1696000"
-    },
-    {
       "PowerHint": "LOW_POWER_MID_CLUSTER_50",
       "Node": "CPUMidClusterMaxFreq",
       "Duration": 3600000,
@@ -2605,12 +2599,6 @@
       "Value": "1945000"
     },
     {
-      "PowerHint": "LOW_POWER_MID_CLUSTER_90",
-      "Node": "CPUMidClusterMaxFreq",
-      "Duration": 3600000,
-      "Value": "2367000"
-    },
-    {
       "PowerHint": "LOW_POWER_CPU_50",
       "Node": "CPUBigClusterMaxFreq",
       "Duration": 3600000,
@@ -2627,18 +2615,6 @@
       "Node": "CPUBigClusterMaxFreq",
       "Duration": 3600000,
       "Value": "2147000"
-    },
-    {
-      "PowerHint": "LOW_POWER_CPU_80",
-      "Node": "CPUBigClusterMaxFreq",
-      "Duration": 3600000,
-      "Value": "2499000"
-    },
-    {
-      "PowerHint": "LOW_POWER_CPU_90",
-      "Node": "CPUBigClusterMaxFreq",
-      "Duration": 3600000,
-      "Value": "2802000"
     },
     {
       "PowerHint": "LOW_POWER",
@@ -2986,66 +2962,6 @@
       "Node": "PerTaskMaxIowaitBoost",
       "Duration": 0,
       "Value": "512"
-    },
-    {
-      "PowerHint": "FACE_UNLOCK_BOOST",
-      "Node": "CPUMidClusterMaxFreq",
-      "Duration": 500,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "FACE_UNLOCK_BOOST",
-      "Node": "CPUMidClusterMinFreq",
-      "Duration": 500,
-      "Value": "1795000"
-    },
-    {
-      "PowerHint": "FACE_UNLOCK_BOOST",
-      "Node": "CPU_MID_TSKIN_BYPASS",
-      "Duration": 500,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "FP_BOOST",
-      "Node": "CPUBigClusterMaxFreq",
-      "Duration": 1000,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "FP_BOOST",
-      "Node": "CPUBigClusterMinFreq",
-      "Duration": 1000,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "FP_BOOST",
-      "Node": "CPU_LITTLE_TSKIN_BYPASS",
-      "Duration": 1000,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "FP_BOOST",
-      "Node": "CPU_MID_TSKIN_BYPASS",
-      "Duration": 1000,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "FP_BOOST",
-      "Node": "CPU_BIG_TSKIN_BYPASS",
-      "Duration": 1000,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "FP_BOOST",
-      "Node": "TRUSTY_VIRTIO_HIGH",
-      "Duration": 1000,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "FP_BOOST",
-      "Node": "TRUSTY_HIGH",
-      "Duration": 1000,
-      "Value": "1"
     },
     {
       "PowerHint": "FP_STORAGE_ACCESS",
