@@ -844,24 +844,6 @@
     },
     {
       "PowerHint": "LAUNCH",
-      "Node": "CPUBigClusterMaxFreq",
-      "Duration": 2000,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "CPUMidClusterMaxFreq",
-      "Duration": 2000,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "CPULittleClusterMaxFreq",
-      "Duration": 2000,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "LAUNCH",
       "Node": "CPUUClampMaxFilterEnable",
       "Duration": 2000,
       "Value": "0"
@@ -909,11 +891,6 @@
     },
     {
       "PowerHint": "LAUNCH",
-      "Type": "DoHint",
-      "Value": "LAUNCH_EXTEND"
-    },
-    {
-      "PowerHint": "LAUNCH",
       "Node": "CPUDVFSHeadroom",
       "Duration": 2000,
       "Value": "1280"
@@ -957,66 +934,6 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "PowerHALLaunch",
-      "Duration": 2000,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "LAUNCH_EXTEND",
-      "Node": "CPUBigClusterMaxFreq",
-      "Duration": 2000,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "LAUNCH_EXTEND",
-      "Node": "CPUMidClusterMaxFreq",
-      "Duration": 2000,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "LAUNCH_EXTEND",
-      "Node": "CPULittleClusterMaxFreq",
-      "Duration": 2000,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "LAUNCH_EXTEND",
-      "Node": "CPUDVFSHeadroom",
-      "Duration": 2000,
-      "Value": "1280"
-    },
-    {
-      "PowerHint": "LAUNCH_EXTEND",
-      "Node": "CPUTaperedDVFSHeadroomEnable",
-      "Duration": 2000,
-      "Value": "0"
-    },
-    {
-      "PowerHint": "LAUNCH_EXTEND",
-      "Node": "CPULittleClusterDownRateLimitUs",
-      "Duration": 2000,
-      "Value": "5000"
-    },
-    {
-      "PowerHint": "LAUNCH_EXTEND",
-      "Node": "CPUMidClusterDownRateLimitUs",
-      "Duration": 2000,
-      "Value": "20000"
-    },
-    {
-      "PowerHint": "LAUNCH_EXTEND",
-      "Node": "CPUBigClusterDownRateLimitUs",
-      "Duration": 2000,
-      "Value": "20000"
-    },
-    {
-      "PowerHint": "LAUNCH_EXTEND",
-      "Node": "TAPreferIdle",
-      "Duration": 2000,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "LAUNCH_EXTEND",
-      "Node": "FGPreferIdle",
       "Duration": 2000,
       "Value": "1"
     },
@@ -1198,54 +1115,6 @@
       "PowerHint": "CAMERA_LAUNCH",
       "Node": "FGCpuset",
       "Duration": 1000,
-      "Value": "0-5"
-    },
-    {
-      "PowerHint": "CAMERA_LAUNCH_EXTENDED",
-      "Node": "CPU_BIG_TSKIN_BYPASS",
-      "Duration": 2000,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "CAMERA_LAUNCH_EXTENDED",
-      "Node": "CPU_MID_TSKIN_BYPASS",
-      "Duration": 2000,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "CAMERA_LAUNCH_EXTENDED",
-      "Node": "CPU_LITTLE_TSKIN_BYPASS",
-      "Duration": 2000,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "CAMERA_LAUNCH_EXTENDED",
-      "Node": "CPUBigClusterMaxFreq",
-      "Duration": 2000,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "CAMERA_LAUNCH_EXTENDED",
-      "Node": "CPUMidClusterMaxFreq",
-      "Duration": 2000,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "CAMERA_LAUNCH_EXTENDED",
-      "Node": "CPULittleClusterMaxFreq",
-      "Duration": 2000,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "CAMERA_LAUNCH_EXTENDED",
-      "Node": "PMU_POLL",
-      "Duration": 2000,
-      "Value": "0"
-    },
-    {
-      "PowerHint": "CAMERA_LAUNCH_EXTENDED",
-      "Node": "FGCpuset",
-      "Duration": 2000,
       "Value": "0-5"
     },
     {
