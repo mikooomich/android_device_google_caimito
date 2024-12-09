@@ -173,8 +173,8 @@
     <!-- The max vibration strength allowed in audio haptic channels. -->
     <item name="config_hapticChannelMaxVibrationAmplitude" format="float" type="dimen">0.335</item>
 
-    <dimen name="status_bar_height_default">52dp</dimen>
-    <dimen name="status_bar_height_portrait">52dp</dimen>
+    <dimen name="status_bar_height_default">30dp</dimen>
+    <dimen name="status_bar_height_portrait">30dp</dimen>
     <dimen name="status_bar_height_landscape">26dp</dimen>
 
     <!-- Whether the display cutout region of the main built-in display should be forced to
