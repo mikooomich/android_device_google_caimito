@@ -427,7 +427,6 @@
         "1",
         "0"
       ],
-      "DefaultIndex": 0,
       "ResetOnInit": true
     },
     {
@@ -862,12 +861,6 @@
     },
     {
       "PowerHint": "LAUNCH",
-      "Node": "FGUClampBoost",
-      "Duration": 2000,
-      "Value": "159"
-    },
-    {
-      "PowerHint": "LAUNCH",
       "Node": "MemFreq",
       "Duration": 2000,
       "Value": "9999999"
@@ -922,12 +915,6 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "TAPreferIdle",
-      "Duration": 2000,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "FGPreferIdle",
       "Duration": 2000,
       "Value": "1"
     },
@@ -1011,12 +998,6 @@
     {
       "PowerHint": "DISPLAY_INACTIVE",
       "Node": "TAPreferIdle",
-      "Duration": 0,
-      "Value": "0"
-    },
-    {
-      "PowerHint": "DISPLAY_INACTIVE",
-      "Node": "FGPreferIdle",
       "Duration": 0,
       "Value": "0"
     },
@@ -2225,12 +2206,6 @@
     },
     {
       "PowerHint": "DISPLAY_IDLE",
-      "Node": "FGPreferIdle",
-      "Duration": 0,
-      "Value": "0"
-    },
-    {
-      "PowerHint": "DISPLAY_IDLE",
       "Type": "EndHint",
       "Value": "DISPLAY_UPDATE_IMMINENT"
     },
@@ -2315,12 +2290,6 @@
     {
       "PowerHint": "GAME",
       "Node": "TAPreferIdle",
-      "Duration": 0,
-      "Value": "0"
-    },
-    {
-      "PowerHint": "GAME",
-      "Node": "FGPreferIdle",
       "Duration": 0,
       "Value": "0"
     },
