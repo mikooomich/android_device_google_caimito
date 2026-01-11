@@ -107,6 +107,11 @@
     <!-- Wifi driver supports WPA3 Simultaneous Authentication of Equals (WPA3-SAE) for softap -->
     <bool translatable="false" name="config_wifi_softap_sae_supported">true</bool>
 
+     <!-- Indicates that the framework should auto append lower bands to band configuration for
+          avoiding coexistence handling. For example: 5g only band will change to 2.4g|5g and
+          6g band will change to 2.4|5g|6g band -->
+    <bool translatable="false" name="config_wifiSoftapAutoAppendLowerBandsToBandConfigurationEnabled">false</bool>
+
     <!-- Override channel utilization estimation with fixed value, disabled in brcm-based pixels -->
     <bool translatable="false" name="config_wifiChannelUtilizationOverrideEnabled">false</bool>
 
@@ -120,7 +125,7 @@
     <bool translatable="false" name="config_wifiMultiStaNetworkSwitchingMakeBeforeBreakEnabled">true</bool>
 
     <!-- Enable concurrent Bridged access point (AP) support -->
-    <bool translatable="false" name="config_wifiBridgedSoftApSupported">true</bool>
+    <bool translatable="false" name="config_wifiBridgedSoftApSupported">false</bool>
 
     <!-- Enable concurrent STA + Bridged access point (AP) support -->
     <bool translatable="false" name="config_wifiStaWithBridgedSoftApConcurrencySupported">true</bool>
