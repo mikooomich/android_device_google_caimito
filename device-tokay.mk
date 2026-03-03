@@ -476,3 +476,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.powerhal.apf_disabled=false \
     vendor.powerhal.apf_enabled=true
+
+# Opt out of speaker_layout_channel_mask field
+$(call soong_config_set_bool,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
