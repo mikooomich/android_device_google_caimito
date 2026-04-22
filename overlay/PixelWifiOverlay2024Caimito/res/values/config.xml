@@ -9,7 +9,7 @@
 
     <!-- Indicates that bridged AP mode is supported on this device provided that
      the device interface combination allows for it -->
-    <bool name="config_wifiBridgedSoftApSupported">false</bool>
+    <bool name="config_wifiBridgedSoftApSupported">true</bool>
 
     <!-- Indicates that STA + bridged AP concurrency mode is supported on this device provided
      that the device interface combination allows for it-->
@@ -38,9 +38,4 @@
          immediately after the country code is sent to the driver (if the method returns a
          success). -->
     <bool name="config_wifiDriverSupportedNl80211RegChangedEvent">true</bool>
-
-     <!-- Indicates that the framework should auto append lower bands to band configuration for
-          avoiding coexistence handling. For example: 5g only band will change to 2.4g|5g and
-          6g band will change to 2.4|5g|6g band -->
-    <bool translatable="false" name="config_wifiSoftapAutoAppendLowerBandsToBandConfigurationEnabled">false</bool>
 </resources>
