@@ -120,7 +120,7 @@
     <bool translatable="false" name="config_wifiMultiStaNetworkSwitchingMakeBeforeBreakEnabled">true</bool>
 
     <!-- Enable concurrent Bridged access point (AP) support -->
-    <bool translatable="false" name="config_wifiBridgedSoftApSupported">true</bool>
+    <bool translatable="false" name="config_wifiBridgedSoftApSupported">false</bool>
 
     <!-- Enable concurrent STA + Bridged access point (AP) support -->
     <bool translatable="false" name="config_wifiStaWithBridgedSoftApConcurrencySupported">true</bool>
